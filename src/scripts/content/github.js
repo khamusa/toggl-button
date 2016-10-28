@@ -19,5 +19,6 @@ togglbutton.render('#partial-discussion-header:not(.toggl)', {observe: true}, fu
     projectName: projectElem && projectElem.textContent
   });
 
-  $('.flex-table-item-primary').appendChild(link);
+  console.log('trying to attach it')
+  $('.TableObject-item--primary').appendChild(link);
 });
